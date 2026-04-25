@@ -1,0 +1,26 @@
+:root {
+    --primary: #D4A0A0;
+    --secondary: #4A4A4A;
+    --accent: #F0D5D5;
+    --background: #FDF8F8;
+    --surface: #FFFFFF;
+    --bg_main: #FDF8F8;
+    --bg_soft: #F5E6E6;
+    --bg_light: #FFFFFF;
+    --text_primary: #3C3C3C;
+    --text_secondary: #9E7B7B;
+    --text_main: #4A4A4A;
+    --border: #F0D5D5;
+    --border_soft: #F5E6E6;
+    --divider: #F0D5D5;
+    --success: #6B8E6B;
+    --warning: #C9A9A9;
+    --error: #B55A5A;
+    --info: #A89B9B;
+    --card_shadow: rgba(212, 160, 160, 0.1);
+    --hover_overlay: rgba(74, 74, 74, 0.3);
+    --gold_highlight: #D4A0A0;
+    --champagne_glow: #F5E6E6;
+    --sale_badge: #E8C8C8;
+    --error_bg: #FEF2F2;
+}

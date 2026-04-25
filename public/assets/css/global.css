@@ -1,0 +1,327 @@
+
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-main);
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--surface) !important;
+}
+
+.nav-link {
+    color: var(--text-secondary) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--text-main) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--text-main);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+    color: var(--text-main);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--text-main);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--text-main);
+}
+
+/* Cards */
+.card {
+    background-color: var(--surface);
+    border-color: var(--border-soft);
+    box-shadow: 0 4px 15px var(--card-shadow);
+}
+
+/* Forms */
+.form-control {
+    background-color: var(--bg-light);
+    border-color: var(--border-soft);
+    color: var(--text-main);
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem var(--hover-overlay);
+}
+
+/* Tables */
+.table {
+    color: var(--text-main);
+}
+
+.table th {
+    background-color: var(--bg-soft);
+    color: var(--text-main);
+}
+
+/* Badges */
+.badge-primary {
+    background-color: var(--primary);
+    color: var(--text-main);
+}
+
+.badge-success {
+    background-color: var(--success);
+    color: white;
+}
+
+.badge-danger {
+    background-color: var(--error);
+    color: white;
+}
+
+.badge-warning {
+    background-color: var(--warning);
+    color: var(--text-main);
+}
+
+.badge-info {
+    background-color: var(--info);
+    color: var(--text-main);
+}
+
+/* Alerts */
+.alert-success {
+    background-color: var(--success);
+    border-color: var(--success);
+    color: white;
+}
+
+.alert-danger {
+    background-color: var(--error);
+    border-color: var(--error);
+    color: white;
+}
+
+.alert-warning {
+    background-color: var(--warning);
+    border-color: var(--warning);
+    color: var(--text-main);
+}
+
+.alert-info {
+    background-color: var(--info);
+    border-color: var(--info);
+    color: var(--text-main);
+}
+
+/* Sale badges */
+.sale-badge {
+    background-color: var(--sale-badge);
+    color: var(--text-main);
+}
+
+/* Borders */
+.border-theme {
+    border-color: var(--border-soft) !important;
+}
+
+/* Links */
+a {
+    color: var(--accent);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
+/* Dropdowns */
+.dropdown-menu {
+    background-color: var(--surface);
+    border-color: var(--border-soft);
+    box-shadow: 0 5px 25px var(--card-shadow);
+}
+
+.dropdown-item {
+    color: var(--text-secondary);
+}
+
+.dropdown-item:hover {
+    background-color: var(--bg-soft);
+    color: var(--text-main);
+}
+
+/* Product cards */
+.product-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border-soft);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px var(--card-shadow);
+}
+
+.product-title {
+    color: var(--text-main);
+}
+
+.product-price {
+    color: var(--text-secondary);
+}
+
+.product-sale-price {
+    color: var(--error);
+}
+
+/* Footer */
+footer {
+    background-color: var(--surface);
+    border-top: 1px solid var(--border-soft);
+}
+
+.footer-text {
+    color: var(--text-secondary);
+}
+
+.footer-link {
+    color: var(--text-secondary);
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: var(--text-main);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--surface);
+    border-right: 1px solid var(--border-soft);
+}
+
+.sidebar-link {
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+    background-color: var(--bg-soft);
+    color: var(--text-main);
+}
+
+/* Shop page */
+.shop-header {
+    background-color: var(--bg-soft);
+}
+
+.filter-section {
+    background-color: var(--surface);
+    border: 1px solid var(--border-soft);
+}
+
+/* Blog */
+.blog-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border-soft);
+}
+
+.blog-card:hover {
+    box-shadow: 0 10px 30px var(--card-shadow);
+}
+
+/* Sections */
+.section-title {
+    color: var(--text-main);
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+}
+
+/* Dividers */
+hr {
+    border-color: var(--divider);
+}
+
+/* Pagination */
+.pagination .page-link {
+    background-color: var(--surface);
+    border-color: var(--border-soft);
+    color: var(--text-main);
+}
+
+.pagination .page-link:hover {
+    background-color: var(--bg-soft);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--text-main);
+}
+
+/* Modals */
+.modal-content {
+    background-color: var(--surface);
+    border-color: var(--border-soft);
+}
+
+.modal-header {
+    border-bottom-color: var(--border-soft);
+}
+
+.modal-footer {
+    border-top-color: var(--border-soft);
+}
+
+/* Tooltips */
+.tooltip-inner {
+    background-color: var(--text-main);
+    color: var(--surface);
+}
+
+/* Selection */
+::selection {
+    background-color: var(--primary);
+    color: var(--text-main);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-soft);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-muted);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-secondary);
+}

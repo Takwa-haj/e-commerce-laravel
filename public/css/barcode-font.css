@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Libre Barcode 128';
+    src: url('/fonts/librebarcode128-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Barcode 39';
+    src: url('/fonts/librebarcode39-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Barcode 128 Text';
+    src: url('/fonts/librebarcode128text-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
